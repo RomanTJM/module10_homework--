@@ -1,0 +1,25 @@
+.btn {
+	display: flex;
+	padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    line-height: 15px;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+    cursor: pointer;
+	background-color: #E3B873;
+	border-color: black;
+}
+
+.btn:hover {
+	transform: scale(1.05);
+}
+
+
+
+ 

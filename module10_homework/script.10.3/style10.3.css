@@ -1,0 +1,77 @@
+.server-message {
+    width: 540px;
+    height: 360px;
+    background: white;
+    margin: 30px auto;
+}
+
+.input-message {
+    display: flex;
+}
+
+.input-text {
+    border: 3px solid #C6DDEF;
+    display: inline;
+    width: 280px;
+    line-height: 30px;
+    margin: 10px 10px 0px 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.input-text::placeholder {
+	color: rgb(200, 200, 200);
+}
+
+.btn {
+    background: #C6DDEF;
+    box-shadow: none;
+    border: none;
+    margin: 10px 10px 0px 0px;
+    padding: 0px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+	color: rgb(100, 100, 100);
+}
+
+.messages-window {
+	border: 3px solid #C6DDEF;
+    width: 515px;
+    height: 285px;
+    margin: 10px 0px 0px 10px;
+}
+
+.chat-window {
+    height: 282px;
+    overflow-y: scroll;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.chat-window .recieved, .chat-window .sent, .chat-window .location {
+    margin-top: 10px;
+    border: 3px solid #C6DDEF;
+    padding: 0 30px;
+    border-radius: 5px;
+} 
+
+.chat-window .recieved {
+    align-self: flex-start;
+    margin-left: 10px;
+}
+.chat-window .sent {
+    align-self: flex-end;
+    margin-right: 10px;  
+}
+
+.chat-window .location {
+    align-self: flex-end;
+    color: blue;
+    margin-right: 10px; 
+}
